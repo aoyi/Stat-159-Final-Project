@@ -32,7 +32,7 @@ reportrnw = report/report.rnw
 reportpdf = report/report.pdf
 
 # All target
-all: data data_clean data_categorize eda regressions session report slides
+all: data data_clean data_categorize train_test_split eda regressions session report slides shiny
 
 # Data target: Download data from the url
 data:
